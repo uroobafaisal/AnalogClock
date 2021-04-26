@@ -1,0 +1,38 @@
+.container {
+    position: relative;
+    border: solid black 5px;
+    width: 42vw;
+}
+
+.hourhand {
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 11px;
+    top: 32%;
+    left: 49.1%;
+    border-radius: 6px 6px 0px 0px;
+    transform-origin: bottom;
+}
+
+.minutehand {
+    position: absolute;
+    background-color: black;
+    height: 138px;
+    width: 8px;
+    top: 25.5%;
+    left: 49.4%;
+    border-radius: 6px 6px 0px 0px;
+    transform-origin: bottom;
+}
+
+.secondhand {
+    position: absolute;
+    background-color: grey;
+    height: 150px;
+    width: 4px;
+    top: 24%;
+    left: 49.7%;
+    border-radius: 6px 6px 0px 0px;
+    transform-origin: bottom;
+}
